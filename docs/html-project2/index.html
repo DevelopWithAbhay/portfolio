@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        background-color: grey;
+      }
+      .main {
+        width: 370px;
+        height: 100vh;
+        margin: auto;
+        background: linear-gradient(
+          to right,
+          rgb(71, 71, 248),
+          rgb(143, 86, 249)
+        );
+      }
+
+      .main .heading {
+        width: 370px;
+        height: 20%;
+        background: linear-gradient(
+          to right,
+          rgb(71, 71, 248),
+          rgb(143, 86, 249)
+        );
+        position: sticky;
+        top: 0;
+        left: 0;
+        color: white;
+        padding: 25px;
+      }
+      .heading i:nth-child(2) {
+       
+        float: right;
+        padding: 5px;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        text-align: center;
+      }
+      .heading p {
+        margin-top: 2em;
+        font-size: 20px;
+      }
+      .icons-div {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 25px 25px 0 0 ; 
+        padding: 25px;
+      }
+      .category{
+        width: 97%;
+        
+        background-color: white;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.217);
+        margin-bottom: 20px;
+      }
+      .category h5{
+        display: block;
+        background-color:azure;
+        padding: 10px;
+       color: rgba(0, 0, 0, 0.7);
+       border-radius: 20px 20px 0 0 ;
+       padding-left: 20px;
+       font-size: 10px;
+       letter-spacing: 0.3px;
+
+
+      }
+      .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45px;
+}
+
+.item i {
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgb(47, 130, 255);
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+}
+
+.item p {
+  margin-top: 8px;
+  font-size: 11px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+
+}
+.category:nth-child(2) i{
+      background-color: rgb(15, 86, 192);
+}
+.category:nth-child(3) i{
+      background-color: rgb(12, 71, 158);
+}
+.category:nth-child(4) i{
+      background-color: rgb(7, 50, 114);
+}
+.category:nth-child(5) i{
+      background-color: rgb(5, 30, 69);
+}
+.vid{
+  width: 100%;
+}
+
+
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">
+        <i style="color: white" class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-question"></i>
+        <p>Bills & Recharge</p>
+      </div>
+      <div class="icons-div">
+       
+<div class="category">
+  <h5>POPULAR CATEGORIES</h5>
+  <div class="icons">
+    <div class="item"><i class="fa-solid fa-lightbulb"></i><p>Electricity</p></div>
+    <div class="item"><i class="fa-solid fa-credit-card"></i><p>Credit Card</p></div>
+    <div class="item"><i class="fa-solid fa-mobile-screen-button"></i><p>Mobile Recharge</p></div>
+    <div class="item"><i class="fa-solid fa-mobile-retro"></i><p>Mobile Postpaid</p></div>
+    <div class="item"><i class="fa-solid fa-road"></i><p>FASTag</p></div>
+    <div class="item"><i class="fa-solid fa-tv"></i><p>DTH</p></div>
+    <div class="item"><i class="fa-solid fa-gas-pump"></i><p>Gas Cylinder</p></div>
+  </div>
+</div>
+<div class="category">
+  <h5>RECHARGES</h5>
+  <div class="icons">
+    <div class="item"><i class="fa-solid fa-mobile-screen-button"></i><p>Mobile</p></div>
+    <div class="item"><i class="fa-solid fa-tv"></i><p>DTH</p></div>
+    <div class="item"><i class="fa-solid fa-network-wired"></i><p>Cable</p></div>
+    <div class="item"><i class="fa-solid fa-road"></i><p>FASTag</p></div>
+  </div>
+</div>
+<div class="category">
+  <h5>UTILITIES</h5>
+  <div class="icons">
+    <div class="item"><i class="fa-solid fa-lightbulb"></i><p>Electricity</p></div>
+    <div class="item"><i class="fa-solid fa-gas-pump"></i><p>Gas Cylinder</p></div>
+    <div class="item"><i class="fa-solid fa-fire"></i><p>Piped Gas</p></div>
+    <div class="item"><i class="fa-solid fa-droplet"></i><p>Water</p></div>
+    <div class="item"><i class="fa-solid fa-mobile-retro"></i><p>Mobile Postpaid</p></div>
+    <div class="item"><i class="fa-solid fa-wifi"></i><p>Broadband</p></div>
+    <div class="item"><i class="fa-solid fa-phone"></i><p>Landline</p></div>
+    <div class="item"><i class="fa-solid fa-house"></i><p>Rent</p></div>
+  </div>
+</div>
+<div class="category">
+  <h5>FINANCIAL SERVICES</h5>
+  <div class="icons">
+    <div class="item"><i class="fa-solid fa-credit-card"></i><p>Credit Card</p></div>
+    <div class="item"><i class="fa-solid fa-scale-balanced"></i><p>Mutual Fund</p></div>
+    <div class="item"><i class="fa-solid fa-heart-circle-check"></i><p>Insurance</p></div>
+    <div class="item"><i class="fa-solid fa-money-bill-wave"></i><p>Loan</p></div>
+    <div class="item"><i class="fa-solid fa-city"></i><p>Municipal Tax</p></div>
+    <div class="item"><i class="fa-solid fa-building-columns"></i><p>Municipal Services</p></div>
+    <div class="item"><i class="fa-solid fa-piggy-bank"></i><p>Recurring Deposit</p></div>
+  </div>
+</div>
+<div class="category">
+  <h5>MORE SERVICES</h5>
+  <div class="icons">
+    <div class="item"><i class="fa-solid fa-tv"></i><p>Subscription</p></div>
+    <div class="item"><i class="fa-solid fa-building"></i><p>Housing Society</p></div>
+    <div class="item"><i class="fa-solid fa-users"></i><p>Clubs & Assoc.</p></div>
+    <div class="item"><i class="fa-solid fa-hospital"></i><p>Hospital</p></div>
+    <div class="item"><i class="fa-solid fa-graduation-cap"></i><p>Education</p></div>
+    <div class="item"><i class="fa-solid fa-hand-holding-heart"></i><p>Donation</p></div>
+    <div class="item"><i class="fa-solid fa-stethoscope"></i><p>Hospital & Pathology</p></div>
+  </div>
+</div>
+      </div>
+      <video class="vid" autoplay muted loop src="image/recharge.mp4"></video>
+    </div>
+  </body>
+</html>
