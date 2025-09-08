@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.langdiv
+{
+    @apply  border-2 border-black mx-auto my-auto w-[150px]  h-[150px] ; 
+
+}
+.langdiv:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.label-class
+{
+    @apply text-white text-lg p-3 block font-medium ;
+}
+.input-class
+{
+    @apply  p-3 w-full border text-xl text-white bg-[#1c2e53] border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none  ;
+}
+.active
+{
+@apply  underline text-red-500 
+
+}
