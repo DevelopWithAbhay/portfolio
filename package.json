@@ -20,7 +20,7 @@
     "preview": "vite preview",
 
     "host": "vite --host",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy":"gh-pages -d dist"
 
   },
