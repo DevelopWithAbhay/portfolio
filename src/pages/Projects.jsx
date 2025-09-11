@@ -2,6 +2,17 @@ import React from "react";
 import Navbar from "../Navbar";
 import Foooter from "../Foooter";
 const projects = {
+  PHP: [
+    {
+      id: 6,
+      title: "Mobile Store",
+      description: "A Fully Working Mobile Shopping Website.",
+      language: "PHP, MySQL",
+      image: "/project-images/php1.jpeg",
+      demo: "http://DevelopWithAbhay.free.nf",
+    },
+
+  ],
   CSS: [
     {
       id: 1,
@@ -62,17 +73,7 @@ const projects = {
       demo: "https://developwithabhay.github.io/projects/js-project2",
     },
   ],
-  PHP: [
-    {
-      id: 6,
-      title: "Mobile Store",
-      description: "A Fully Working Mobile Shopping Website.",
-      language: "PHP, MySQL",
-      image: "/project-images/php1.jpeg",
-      demo: "http://DevelopWithAbhay.free.nf",
-    },
-
-  ],
+  
 };
 
 
