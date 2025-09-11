@@ -62,18 +62,6 @@ const projects = {
       demo: "https://developwithabhay.github.io/projects/js-project2",
     },
   ],
-   React: [
-    {
-      id: 3,
-      title: "News App",
-      description: "A real-time News App using News API.",
-      language: "React, Tailwind, API",
-      image: "/project-images/amazon.jpeg",
-      demo: "https://developwithabhay.github.io/projects/js-project1",
-    },
-  
-  ],
- 
   PHP: [
     {
       id: 6,
