@@ -15,7 +15,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-red-500/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/htmlimg.png"
+            src="/image/htmlimg.png"
             alt="HTML"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">HTML</p>
@@ -25,7 +25,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-blue-500/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/css.svg"
+            src="/image/css.svg"
             alt="CSS"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">CSS</p>
@@ -35,7 +35,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-yellow-400/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/jsimg.png"
+            src="/image/jsimg.png"
             alt="JavaScript"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">JavaScript</p>
@@ -45,7 +45,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-cyan-400/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/reactimg.svg"
+            src="/image/reactimg.svg"
             alt="React"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">React</p>
@@ -55,7 +55,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-green-500/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/nodejsimg.svg"
+            src="/image/nodejsimg.svg"
             alt="Node.js"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">Node.js</p>
@@ -65,7 +65,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-gray-500/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/sql.png"
+            src="/image/sql.png"
             alt="Express.js"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">Sql</p>
@@ -75,7 +75,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-green-400/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/php.png"
+            src="/image/php.png"
             alt="MongoDB"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">PHP</p>
@@ -85,7 +85,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-sky-400/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/tailwind.png"
+            src="/image/tailwind.png"
             alt="Tailwind"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">Tailwind</p>
@@ -95,7 +95,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-orange-400/40 transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/Git-logo.svg"
+            src="/image/Git-logo.svg"
             alt="Git"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">Git</p>
@@ -105,7 +105,7 @@ const Langdesc = () => {
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-white transition duration-300">
           <img
             className="w-20 h-20 object-contain"
-            src="src/image/githublogo.svg"
+            src="/image/githublogo.svg"
             alt="GitHub"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">GitHub</p>

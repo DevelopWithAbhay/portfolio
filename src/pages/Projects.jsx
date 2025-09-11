@@ -20,6 +20,14 @@ const projects = {
       demo: "https://developwithabhay.github.io/projects/html-project2",
     },
     {
+      id: 3,
+      title: "Rapido Clone",
+      description:" A Replica Of Rapido Website",
+      language: "HTML & CSS",
+      image: "/project-images/rapido.jpg ",
+      demo: "https://developwithabhay.github.io/projects/rapido",
+    },
+    {
       id:3,
       title: "Light Bulb",
       description:"A Realistic fully Functional Bulb With Switch Made Up Of Pure CSS ",
