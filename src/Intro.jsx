@@ -20,7 +20,7 @@ const Intro = () => {
             I Can Work With{" "}
             <span className="text-red-500">
               <Typewriter
-                words={["Javascript", "React", "Node.js", "Express.js", "MongoDB", "Tailwind"]}
+                words={["Javascript", "React", "Node.js", "PHP","Tailwind"]}
                 loop={Infinity}
                 cursor
                 cursorStyle="|"
