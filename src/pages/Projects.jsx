@@ -46,14 +46,7 @@ const projects = {
       image: "/project-images/bulb.jpeg ",
       demo: "https://developwithabhay.github.io/projects/html-project4",
     },
-    {
-      id:4,
-      title: "Solar System",
-      description:"A Realistic fully Functional Solar System With Sun And Earth Rotation ",
-      language: "HTML & CSS",
-      image: "/project-images/solar.png ",
-      demo: "https://developwithabhay.github.io/projects/html-project5",
-    },
+    
   ],
   JavaScript: [
     {
