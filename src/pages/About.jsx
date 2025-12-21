@@ -12,6 +12,7 @@ const About = () => {
 
       <h2 className="text-2xl font-semibold mb-2">My Skills:</h2>
       <ul className="list-disc list-inside mb-4">
+        <li>Shopify+liquid</li>
         <li>PHP &MYSQL</li>
         <li>HTML & CSS for crafting beautiful layouts with Tailwind Css</li>
         <li>JavaScript for dynamic, interactive features</li>

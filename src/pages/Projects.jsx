@@ -46,7 +46,7 @@ const projects = {
       image: "/project-images/bulb.jpeg ",
       demo: "https://developwithabhay.github.io/projects/html-project4",
     },
-    
+
   ],
   JavaScript: [
     {
@@ -66,7 +66,6 @@ const projects = {
       demo: "https://developwithabhay.github.io/projects/js-project2",
     },
   ],
-  
 };
 
 

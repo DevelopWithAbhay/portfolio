@@ -4,6 +4,9 @@ import './index.css'
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
+import Shopify from './pages/Shopify.jsx'
+
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +19,11 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
+    path: "/Shopify",
+    element: <Shopify/>,
+  },
+
+  {
     path: "/About",
     element: <About/>,
   },
@@ -26,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/Projects",
     element: <Projects/>,
+  },
+  {
+    path: "/shopifywork",
+    element: <shopifywork/>,
   },
   
 

@@ -5,12 +5,12 @@ const Langdesc = () => {
     <div className="flex justify-center items-center">
     <div className="bg-[#0f0f0f] w-full sm:w-4/5 py-10 flex flex-col items-center">
       {/* Section Heading */}
-      <h2 className="text-white text-[1.8rem] sm:text-4xl font-bold mb-8  ">
+      <h2 className="text-white text-[1.8rem] sm:text-4xl font-bold mb-8 text-center  ">
         🚀 Technologies I <span className="text-red-500">Work With</span>
       </h2>
 
       {/* Responsive Grid */}
-      <div className="container mx-auto w-4/5 gap-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      <div className="container mx-auto w-5/5 gap-6 px-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
         {/* HTML */}
         <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-red-500/40 transition duration-300">
           <img
@@ -109,6 +109,24 @@ const Langdesc = () => {
             alt="GitHub"
           />
           <p className="text-[#dddcdc] mt-2 text-lg font-medium">GitHub</p>
+        </div>
+         {/* shopify logo */}
+        <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-[#48a832] transition duration-300">
+          <img
+            className="w-20 h-20 object-contain"
+            src="/image/shopify-logo.svg"
+            alt="GitHub"
+          />
+          <p className="text-[#dddcdc] mt-2 text-lg font-medium">Shopify</p>
+        </div>
+         {/* shopify liquid logo */}
+        <div className="bg-[#1a1a1a] flex flex-col justify-center items-center p-4 rounded-xl shadow-lg hover:shadow-[blue] transition duration-300">
+          <img
+            className="w-20 h-20 object-contain"
+            src="/image/shopify-liquid.svg"
+            alt="GitHub"
+          />
+          <p className="text-[#dddcdc] mt-2 text-lg font-medium">Shopify Liquid</p>
         </div>
       </div>
     </div></div>

@@ -19,6 +19,12 @@ const Navbar = () => {
             <li>Home</li>
           </NavLink>
         </ul>
+
+        <ul>
+          <NavLink to="/Shopify" className={(e) => (e.isActive ? "text-red-500" : "")}>
+            <li>Shopify</li>
+          </NavLink>
+        </ul>
         <ul>
           <NavLink to="/About" className={(e) => (e.isActive ? "text-red-500" : "")}>
             <li>About</li>
@@ -29,11 +35,11 @@ const Navbar = () => {
             <li>Contact</li>
           </NavLink>
         </ul>
-        <ul>
+        {/* <ul>
           <NavLink to="/Projects" className={(e) => (e.isActive ? "text-red-500" : "")}>
             <li>Projects</li>
           </NavLink>
-        </ul>
+        </ul> */}
       </div>
 {/*for mobile */}
       <p onClick={toggleMenu}>
@@ -45,7 +51,7 @@ const Navbar = () => {
       </p>
 
       {isOpen && (
-        <div className="w-[70vw] h-[80vh] bg-[#3b3838] float-end absolute top-2 right-1 rounded-lg shadow-lg p-6 flex flex-col gap-10 text-white text-lg z-50 ">
+        <div className="w-[70vw] h-[100vh] bg-[#3b3838] float-end absolute top-2 right-1 rounded-lg shadow-lg p-6 flex flex-col gap-10 text-white text-lg z-50 ">
           
             <p onClick={toggleMenu}>
         <FontAwesomeIcon
@@ -62,6 +68,13 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
+            to="/Shopify"
+            onClick={toggleMenu}
+            className={(e) => (e.isActive ? "text-red-500" : "hover:text-red-500")}
+          >
+            Shopify
+          </NavLink>
+          <NavLink
             to="/About"
             onClick={toggleMenu}
             className={(e) => (e.isActive ? "text-red-500" : "hover:text-red-500")}
@@ -75,13 +88,13 @@ const Navbar = () => {
           >
             Contact
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/Projects"
             onClick={toggleMenu}
             className={(e) => (e.isActive ? "text-red-500" : "hover:text-red-500")}
           >
             Projects
-          </NavLink>
+          </NavLink> */}
         </div>
       )} 
     </div>
