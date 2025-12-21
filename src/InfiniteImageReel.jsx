@@ -78,7 +78,7 @@ const rafRef = useRef(null);
 const pauseRef = useRef(false);
 const resumeTimeout = useRef(null);
 
-const SCROLL_SPEED = 50; // px per frame
+const SCROLL_SPEED = 3; // px per frame
 
 const startAutoScroll = () => {
   if (rafRef.current) return;
