@@ -5,7 +5,7 @@ const Intro = () => {
     <div className="container flex items-center justify-center my-4">
     <div className=" bg-[#0d0d0d] w-full sm:w-4/5  min-h-[70vh] flex justify-center items-center px-6 sm:px-12 py-10">
       <div className="container  max-w-7xl flex flex-col-reverse md:flex-row items-center md:items-start gap-10">
-      <div className="flex justify-center items-center md:hidden min-h-[60vh]">
+      <div className="flex justify-center items-center md:hidden min-h-[30vh]">
   <img
     className="w-48 h-48 sm:w-64 sm:h-64 rounded-full border-4 border-gray-700 shadow-lg"
     src="/image/profile.jpeg"

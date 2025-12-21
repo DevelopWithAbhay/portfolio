@@ -19,13 +19,30 @@ export default function InfiniteImageReel() {
   const startX = useRef(0);
   const startWidth = useRef(0);
 
-  const MIN_REEL = 160;
+const [viewportWidth, setViewportWidth] = useState(
+  typeof window !== "undefined" ? window.innerWidth : 1024
+);
+
+useEffect(() => {
+  const handleResize = () => setViewportWidth(window.innerWidth);
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
+const isMobileViewport = viewportWidth <= 640; // Tailwind sm
+
+
+  const MIN_REEL = isMobileViewport ? 32 : 190;
+
   const MAX_REEL = typeof window !== "undefined" ? window.innerWidth : 1200;
   const MIN_DESC = 32;
 
   const [reelWidth, setReelWidth] = useState(280);
+  
 
   const isMobileView = reelWidth <= 650;
+
+
 const activeImages = isMobileView ? mobileImages : desktopImages;
 
 
@@ -61,7 +78,7 @@ const rafRef = useRef(null);
 const pauseRef = useRef(false);
 const resumeTimeout = useRef(null);
 
-const SCROLL_SPEED = 0.4; // px per frame
+const SCROLL_SPEED = 50; // px per frame
 
 const startAutoScroll = () => {
   if (rafRef.current) return;
