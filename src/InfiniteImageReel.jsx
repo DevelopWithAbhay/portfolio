@@ -79,7 +79,7 @@ const pauseRef = useRef(false);
 const resumeTimeout = useRef(null);
 
 
-const SCROLL_SPEED = 3; // px per frame
+const SCROLL_SPEED = 2; // px per frame
 
 
 const startAutoScroll = () => {
