@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Intro = () => {
   return (
-    <div className="container flex items-center justify-center my-4">
+    <div className="flex items-center justify-center my-4 w-full">
     <div className=" bg-[#0d0d0d] w-full sm:w-4/5  min-h-[70vh] flex justify-center items-center px-6 sm:px-12 py-10">
       <div className="container  max-w-7xl flex flex-col-reverse md:flex-row items-center md:items-start gap-10">
       <div className="flex justify-center items-center md:hidden min-h-[30vh]">
@@ -15,7 +15,7 @@ const Intro = () => {
 
 
         <div className="flex  flex-col items-center md:items-start text-center md:text-left md:w-2/3">
-          <div className="text-white text-center text-3xl sm:text-4xl md:text-4xl font-bold mb-6">
+          <div className="text-white text-center text-2xl sm:text-4xl md:text-4xl font-bold mb-6">
             I Can Work With{" "}
             <span className="text-red-500">
               <Typewriter
