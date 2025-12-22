@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import InfiniteImageReel from "../InfiniteImageReel.jsx"
 import HowWeWork from "../HowWeWork.jsx";
 
-import Navbar from "../Navbar";
+import Navbar from "../Navbar.jsx";
 import WhyChooseus from "../WhyChooseus.jsx";
 import ContactUs from "../ContactUs.jsx";
 
