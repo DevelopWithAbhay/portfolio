@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/Shopify",
+    path: "/shopify",
     element: <Shopify/>,
   },
 
