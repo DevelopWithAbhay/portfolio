@@ -17,7 +17,7 @@ function ContactUs() {
 
   <div className="flex flex-col sm:flex-row gap-4 justify-center">
     <a
-      href="{<Contact/>}"
+      href="/contact"
       className="px-6 py-3 rounded-full bg-white text-black
                  text-sm font-medium hover:bg-gray-200 transition"
     >
