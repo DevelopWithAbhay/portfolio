@@ -35,10 +35,6 @@ const router = createBrowserRouter([
     path: "/Projects",
     element: <Projects/>,
   },
-  {
-    path: "/shopifywork",
-    element: <shopifywork/>,
-  },
   
 
 ]);
