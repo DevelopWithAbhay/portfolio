@@ -6,12 +6,14 @@ const desktopImages = [
   "/shopify-images/img1.png",
   "/shopify-images/img2.png",
   "/shopify-images/img3.png",
+  "/shopify-images/img4.png",
 ];
 
 const mobileImages = [
   "/shopify-images/imgp1.png",
   "/shopify-images/imgp2.png",
   "/shopify-images/imgp3.png",
+  "/shopify-images/imgp4.png",
 ];
 
 

@@ -5,6 +5,7 @@ import HowWeWork from "../HowWeWork.jsx";
 import Navbar from "../Navbar.jsx";
 import WhyChooseus from "../WhyChooseus.jsx";
 import ContactUs from "../ContactUs.jsx";
+import Shopifyprojects from "../Shopifyprojects.jsx";
 
 const Shopify = ({ before, after }) => {
 
@@ -13,6 +14,7 @@ const Shopify = ({ before, after }) => {
     <Navbar/>
    <section className="sm:mt-10">
         <InfiniteImageReel />
+        <Shopifyprojects/>
         <HowWeWork/>
         <WhyChooseus/>
         <ContactUs/>

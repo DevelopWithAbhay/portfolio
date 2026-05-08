@@ -8,7 +8,7 @@ const Intro = () => {
       <div className="flex justify-center items-center md:hidden min-h-[30vh]">
   <img
     className="w-48 h-48 sm:w-64 sm:h-64 rounded-full border-4 border-gray-700 shadow-lg"
-    src="/image/profile.jpeg"
+    src="/image/profile.png"
     alt="Profile"
   />
 </div>
@@ -43,7 +43,7 @@ const Intro = () => {
        <div className="hidden md:flex justify-center items-center md:w-1/3">
   <img
     className="w-[100%] h-64 lg:w-80 lg:h-80 border-4 border-gray-700 rounded-full object-center shadow-lg"
-    src="/image/profile.jpeg"
+    src="/image/profile.png"
     alt="Profile"
   />
 </div>

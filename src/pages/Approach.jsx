@@ -26,7 +26,7 @@ const Approach = () => {
     e.preventDefault();
     setloading(true);  
 
-    emailjs.sendForm("service_q5zs74r", "template_p1kctyz", form.current, {
+    emailjs.sendForm("service_jdo8b1t", "template_p1kctyz", form.current, {
         publicKey: "iugeZvBqhlxMWP3tC",
       })
       .then(
@@ -106,7 +106,7 @@ const Approach = () => {
               disabled={loading}
               className={`px-10 py-3 w-40  bg-blue-600 text-white text-xl rounded-full hover:bg-blue-700 transition duration-300 ease-in-out ${loading?"cursor-not-allowed":" "}`}
             >
-         {loading?(<img src="src/image/spinner.svg" className=" mx-4 w-10 h-10 " alt="spinner"/>):("Message")}
+         {loading?(<img src="/public/image/spinner.svg" className=" mx-4 w-10 h-10 " alt="spinner"/>):("Message")}
          
           
             </button>
