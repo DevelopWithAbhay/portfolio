@@ -3,17 +3,17 @@ import { useRef, useState } from "react";
 import { useEffect } from "react";
 
 const desktopImages = [
+  "/shopify-images/img4.png",
   "/shopify-images/img1.png",
   "/shopify-images/img2.png",
-  "/shopify-images/img3.png",
-  "/shopify-images/img4.png",
+  "/shopify-images/neidhald.png",
 ];
 
 const mobileImages = [
+  "/shopify-images/imgp4.png",
   "/shopify-images/imgp1.png",
   "/shopify-images/imgp2.png",
-  "/shopify-images/imgp3.png",
-  "/shopify-images/imgp4.png",
+  "/shopify-images/neidhalm.png",
 ];
 
 

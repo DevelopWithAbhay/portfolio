@@ -1,10 +1,10 @@
 import React from 'react'
 
-function ContactUs() {
+function ContactUs(props) {
   return (
     <div>
       <div className="w-full sm:w-4/5 mx-auto my-10 bg-[#1a1a1a]
-                border  rounded-xl px-6 py-12 text-center">
+                border  rounded-xl px-6 py-12 text-center" style={{background: props.bg}}>
 
   <h2 className="text-white text-3xl font-semibold mb-4">
     Let’s Build Something Great

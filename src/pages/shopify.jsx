@@ -17,7 +17,7 @@ const Shopify = ({ before, after }) => {
         <Shopifyprojects/>
         <HowWeWork/>
         <WhyChooseus/>
-        <ContactUs/>
+        <ContactUs bg={'[#1a1a1a]'}/>
       </section>
      
 </>

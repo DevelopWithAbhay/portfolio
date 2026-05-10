@@ -13,6 +13,14 @@ const projects = {
   },
   {
     id: 2,
+    title: "The Mirage Store",
+    description: "A stylish Shopify store built on a premium paid theme, delivering a high-end shopping experience.",
+    language: "Shopify Liquid, Html,Css,Js,Web Vitals,Indexing,Google Analytics,SEO (Paid Theme)",
+    image: "https://themirage.store/cdn/shop/files/Mirage_New_Logo_White_dfeba371-11f2-4208-beec-a05a6c0de613.webp?v=1769244779",
+    link: "https://themirage.store",
+  },
+  {
+    id: 3,
     title: "Perrito Pet Products",
     description: "A pet food e-commerce store offering natural meals and treats for dogs and cats under the Wag In Joy & Lick In Joy brands.",
     language: "Shopify Liquid, Html,Css,Js,Web Vitals,Indexing,Google Analytics,SEO",
@@ -20,21 +28,14 @@ const projects = {
     link: "https://www.perritopetproducts.com",
   },
   {
-    id: 3,
+    id: 4,
     title: "Ayuphoria",
     description: "An Ayurveda-inspired skincare brand selling face washes, moisturizers, sunscreen, and foot cream with plant-based formulations.",
     language: "Shopify Liquid, Html,Css,Js,Web Vitals,Indexing,Google Analytics,SEO",
     image: "https://www.ayuphoria.com/cdn/shop/files/logo.png?height=300&pad_color=ffffff&v=1772796942&width=350",
     link: "https://ayuphoria.com",
   },
-  {
-    id: 4,
-    title: "The Mirage Store",
-    description: "A stylish Shopify store built on a premium paid theme, delivering a high-end shopping experience.",
-    language: "Shopify Liquid, Html,Css,Js,Web Vitals,Indexing,Google Analytics,SEO (Paid Theme)",
-    image: "https://themirage.store/cdn/shop/files/Mirage_New_Logo_White_dfeba371-11f2-4208-beec-a05a6c0de613.webp?v=1769244779",
-    link: "https://themirage.store",
-  },
+  
   {
     id: 5,
     title: "Xtraallt",
@@ -85,7 +86,7 @@ const Shopifyprojects = () => {
 
       <div className="mx-auto p-6 sm:p-10 w-full sm:w-4/5">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-10">
-          My Projects
+          Featured Live Projects
         </h2>
 
         {Object.keys(projects).map((category) => (
