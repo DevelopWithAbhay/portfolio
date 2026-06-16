@@ -3,17 +3,49 @@ import { useRef, useState } from "react";
 import { useEffect } from "react";
 
 const desktopImages = [
-  "/shopify-images/img4.png",
-  "/shopify-images/img1.png",
-  "/shopify-images/img2.png",
-  "/shopify-images/neidhald.png",
+  "/shopify-images/mira-d-1.webp",
+  "/shopify-images/mira-d-2.webp",
+  "/shopify-images/mira-d-3.webp",
+  "/shopify-images/mira-d-4.webp",
+  "/shopify-images/fly-d-1.webp",
+  "/shopify-images/fly-d-2.webp",
+  "/shopify-images/fly-d-3.webp",
+  "/shopify-images/fly-d-4.webp",
+  "/shopify-images/ano-d-1.webp",
+  "/shopify-images/ano-d-2.webp",
+  "/shopify-images/ano-d-3.webp",
+  "/shopify-images/ano-d-4.webp",
+  "/shopify-images/neid-d-1.webp",
+  "/shopify-images/neid-d-2.webp",
+  "/shopify-images/neid-d-3.webp",
+  "/shopify-images/neid-d-4.webp",
+  "/shopify-images/oro-d-1.webp",
+  "/shopify-images/oro-d-2.webp",
+  "/shopify-images/oro-d-3.webp",
+  "/shopify-images/oro-d-4.webp"
 ];
 
 const mobileImages = [
-  "/shopify-images/imgp4.png",
-  "/shopify-images/imgp1.png",
-  "/shopify-images/imgp2.png",
-  "/shopify-images/neidhalm.png",
+  "/shopify-images/mira-m-1.webp",
+  "/shopify-images/mira-m-2.webp",
+  "/shopify-images/mira-m-3.webp",
+  "/shopify-images/mira-m-4.webp",
+  "/shopify-images/fly-m-1.webp",
+  "/shopify-images/fly-m-2.webp",
+  "/shopify-images/fly-m-3.webp",
+  "/shopify-images/fly-m-4.webp",
+  "/shopify-images/ano-m-3.webp",
+  "/shopify-images/ano-m-1.webp",
+  "/shopify-images/ano-m-4.webp",
+  "/shopify-images/ano-m-2.webp",
+  "/shopify-images/neid-m-1.webp",
+  "/shopify-images/neid-m-2.webp",
+  "/shopify-images/neid-m-3.webp",
+  "/shopify-images/neid-m-4.webp",
+  "/shopify-images/oro-m-1.webp",
+  "/shopify-images/oro-m-2.webp",
+  "/shopify-images/oro-m-3.webp",
+  "/shopify-images/oro-m-4.webp"
 ];
 
 
@@ -145,7 +177,7 @@ useEffect(() => {
       key={`${src}-${i}`}
       src={src}
       alt=""
-      className="w-full mb-4 rounded-lg object-cover"
+      className="w-full  rounded-lg object-cover"
     />
   ))}
 </div>
